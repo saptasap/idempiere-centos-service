@@ -1,6 +1,6 @@
 # iDempiere CentOS service
-Install iDempiere as a service in centos using init script (tested with CentOS 8, CentOS 8 Stream).
-Run as root :
+Install iDempiere as a service in centos using init script (tested with CentOS 8, CentOS 8 Stream). Overwrite original file at `/opt/idempiere-server/utils/unix/idempiere_RedHat.sh` and
+run this command as root :
 ```
 cp /opt/idempiere-server/utils/unix/idempiere_RedHat.sh /etc/init.d/idempiere
 systemctl daemon-reload
